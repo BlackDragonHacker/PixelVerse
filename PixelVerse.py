@@ -331,7 +331,7 @@ def main():
                     else:
                         print(f"{Fore.RED + Style.BRIGHT}[\nWrong Query")
                           
-                animated_loading(20)
+                animated_loading(3600)
                 clear_terminal()            
             except Exception as e:
                 print(f"There is an error: {str(e)}")
